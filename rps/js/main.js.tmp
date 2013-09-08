@@ -1,0 +1,31 @@
+
+
+/*var compete = function (weapon1, weapon2)
+{
+    var bOk = false;
+
+    // Test each weapon
+    bOk = checkValidWeapon([weapon1, weapon2]);
+
+    if (!bError)
+    {
+        // We can compete
+
+    }
+}
+
+var checkValidWeapon = function (aWeapons)
+{
+    var aValidWeapons = ["rock", "paper", "scissors"],
+        bValidWeapon = true;
+
+    aWeapons.forEach(function(weapon)
+    {
+        if (!aValidWeapons.indexOf(weapon))
+        {
+            // Invalid weapon choice!
+            console.log("Invalid Weapon");
+            bValidWeapon = false;
+        }
+    });
+}/*
